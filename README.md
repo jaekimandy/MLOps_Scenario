@@ -144,12 +144,12 @@
   </tr>
   <tr>
     <td>2. Drift Detection</td>
-    <td>Evidently AI<br> Alibi Detect DVC </td>
+    <td>Evidently AI<br> Alibi Detect</td>
     <td> Implement drift detection mechanisms to monitor changes in data distribution or model performance over time</td>
   </tr>
   <tr>
     <td>3. Alerting</td>
-    <td>Prometheus Alertmanager<br> PagerDuty<br> Slack Integrations<br> TensorBoar</td>
+    <td>Prometheus Alertmanager<br> PagerDuty<br> Slack Integrations<br> TensorBoard</td>
     <td>Set up alerting systems to notify relevant stakeholders when performance metrics fall below certain thresholds</td>
   </tr>
   <tr>
@@ -170,3 +170,20 @@
     <td> Ensure a robust rollback mechanism is in place to revert to a previous model version in case of issues with the new deployment</td>
   </tr>
 </table>
+
+## Ⅳ. Challenges and Best Practices
+
+
+**Challenges**   
+
+**Data Quality**:   Ensuring consistent data quality and dealing with missing or noisy data.   
+**Scalability**:   Scaling the training and serving infrastructure to handle large datasets and high traffic.   
+Complexity:   Managing the complexity of the pipeline and ensuring all components work seamlessly together.   
+Regulatory Compliance:   Ensuring the model and its data comply with relevant regulations and industry standards.  
+    
+**Best Practices**   
+**Modular Pipelines**:    Design modular and reusable components for the training and deployment pipelines.   
+**Continuous Integration/Continuous Deployment (CI/CD)**:   Implement CI/CD pipelines for model training and deployment to ensure seamless integration and rapid iteration.  
+**Security**:   Secure data, models, and APIs using encryption, authentication, and authorization mechanisms.   
+**Documentation**:   Maintain comprehensive documentation for the entire pipeline, including setup instructions, configurations, and troubleshooting guides.   
+**Stakeholder Collaboration**:   Foster collaboration between data scientists, engineers, and operations teams to ensure smooth deployment and maintenance of models.   
