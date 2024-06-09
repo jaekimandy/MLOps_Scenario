@@ -5,7 +5,7 @@
 • Discuss the challenges and best practices for monitoring and managing the deployed model in production.
 
 
-## 1. Automated Model Training and Deployment Process
+## Ⅰ. Automated Model Training and Deployment Process
 
 <table>
   <tr>
@@ -80,4 +80,93 @@
     <td>Expose the model as an API endpoint for consumption by other applications</td>
   </tr>
   <tr>
-</table
+</table>
+
+## Ⅱ. Version Control and Lineage Tracking
+
+<table>
+  <tr>
+    <th>Stage </th>
+    <th>Stage Specifics</th>
+    <th>Tools</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td rowspan="3">A. Version Control</td>
+    <td>1. Code and Configurations</td>
+    <td>Git </td>
+    <td>Use Git for version controlling the codebase, configuration files, and training scripts.</td>
+</td>
+  </tr>
+  <tr>
+    <td>2. Model Artifacts</td>
+    <td>MLflow<br> DVC </td>
+    <td>Use a model registry or artifact repository to store and version control trained model artifacts</td>
+  </tr>
+  <tr>
+    <td>3. Experiment Tracking</td>
+    <td>MLflow Tracking<br> TensorBoar</td>
+    <td>Log experiments, capturing metadata such as hyperparameters, metrics, and data versions</td>
+  </tr>
+  <tr>
+    <td rowspan="3">B. Lineage Tracking</td>
+    <td>1. Data Lineage</td>
+    <td>Apache Atlas<br> Amundsen</td>
+    <td>Track data versions and transformations using data cataloging tools</td>
+  </tr>
+  <tr>
+    <td>2. Model Lineage</td>
+    <td>MLflow<br> DVC</td>
+    <td> Ensure each model artifact is associated with its training data, parameters, code version, and environment using the model registry.</td>
+  </tr>
+  <tr>
+    <td>3. Reproducibility</td>
+    <td>Detailed logs<br> configuration files</td>
+    <td> Store detailed logs and configuration files to reproduce any training run or model version</td>
+  </tr>
+</table>
+
+## Ⅲ. Monitoring and Managing the Deployed Model
+
+<table>
+  <tr>
+    <th>Stage </th>
+    <th>Stage Specifics</th>
+    <th>Tools</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td rowspan="3">A. Monitoring</td>
+    <td>1. Performance Monitoring</td>
+    <td>Prometheus <br> Grafana </td>
+    <td> Continuously monitor model performance in production, tracking metrics such as response time, throughput, and error rates</td>
+</td>
+  </tr>
+  <tr>
+    <td>2. Drift Detection</td>
+    <td>Evidently AI<br> Alibi Detect DVC </td>
+    <td> Implement drift detection mechanisms to monitor changes in data distribution or model performance over time</td>
+  </tr>
+  <tr>
+    <td>3. Alerting</td>
+    <td>Prometheus Alertmanager<br> PagerDuty<br> Slack Integrations<br> TensorBoar</td>
+    <td>Set up alerting systems to notify relevant stakeholders when performance metrics fall below certain thresholds</td>
+  </tr>
+  <tr>
+    <td rowspan="3">B. Management</td>
+    <td>1. Automated Retrainin</td>
+    <td>Apache Airflow <br> Kubeflow Pipeline </td>
+    <td> Implement pipelines to automatically retrain the model when significant performance degradation or drift is detected.
+</td>
+  </tr>
+  <tr>
+    <td>2. A/B Testing</td>
+    <td>Kubernetes</td>
+    <td>  Use A/B testing or canary deployments to safely test new model versions in production before full rollout</td>
+  </tr>
+  <tr>
+    <td>3. Rollback Mechanism</td>
+    <td>Kubernetes</td>    
+    <td> Ensure a robust rollback mechanism is in place to revert to a previous model version in case of issues with the new deployment</td>
+  </tr>
+</table>
