@@ -126,6 +126,11 @@
   </tr>
 </table>
 
+**Registered Model in MLFlow**
+![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/8532ac30-653c-4e02-a366-dde4db39212e)
+
+
+
 ## Ⅲ. Monitoring and Managing the Deployed Model
 
 <table>
