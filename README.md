@@ -24,7 +24,9 @@
   <tr>
     <td>2. Data Cleaning</td>
     <td>Spark</td>
-    <td>Implement automated data cleaning scripts to handle missing values, outliers, and inconsistencies</td>
+    <td>Implement automated data cleaning scripts to handle missing values, outliers, and inconsistencies<be>
+      <a href="https://reintech.io/blog/building-scalable-etl-pipelines-apache-spark">Spark Example</a>
+    </td>
   </tr>
   <tr>
     <td>3. Feature Engineering</td>
