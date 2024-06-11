@@ -72,14 +72,14 @@
   <tr>
     <td>2. Model Serving</td>
     <td>Kubernetes</td>
-    <td> Integrate hyperparameter optimization tools to automate the search for the best model parameters <be>
-     <a href="https://medium.com/@shanakachathuranga/machine-learning-model-serving-with-django-rest-framework-397f495a8a38"> Exposing Model</a> 
+    <td> Integrate hyperparameter optimization tools to automate the search for the best model parameters 
     </td>
   </tr>
   <tr>
     <td>3. API Creation</td>
     <td>Flask<br> FastAPI<br>  Django</td>
-    <td>Expose the model as an API endpoint for consumption by other applications</td>
+    <td>Expose the model as an API endpoint for consumption by other applications<br>
+     <a href="https://medium.com/@shanakachathuranga/machine-learning-model-serving-with-django-rest-framework-397f495a8a38"> Exposing Model</a> </td>
   </tr>
   <tr>
 </table>
