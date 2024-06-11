@@ -170,7 +170,9 @@
   <tr>
     <td>2. A/B Testing</td>
     <td>Kubernetes</td>
-    <td>  Use A/B testing or canary deployments to safely test new model versions in production before full rollout</td>
+    <td>  Use A/B testing or canary deployments to safely test new model versions in production before full rollout<be>
+      <a href="https://mlflow.org/docs/latest/deployment/deploy-model-to-kubernetes/tutorial.html">Kuberbets deployment Reference document</a>  
+    </td>
   </tr>
   <tr>
     <td>3. Rollback Mechanism</td>
