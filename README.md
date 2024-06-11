@@ -72,7 +72,9 @@
   <tr>
     <td>2. Model Serving</td>
     <td>Kubernetes</td>
-    <td> Integrate hyperparameter optimization tools to automate the search for the best model parameters</td>
+    <td> Integrate hyperparameter optimization tools to automate the search for the best model parameters <be>
+     <a href="https://medium.com/@shanakachathuranga/machine-learning-model-serving-with-django-rest-framework-397f495a8a38"> Exposing Model</a> 
+    </td>
   </tr>
   <tr>
     <td>3. API Creation</td>
