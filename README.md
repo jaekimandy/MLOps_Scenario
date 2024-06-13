@@ -109,7 +109,7 @@
   </tr>
   <tr>
     <td>3. Experiment Tracking</td>
-    <td>MLflow Tracking<br> TensorBoar</td>
+    <td>MLflow Tracking<br> TensorBoard</td>
     <td>Log experiments, capturing metadata such as hyperparameters, metrics, and data versions</td>
   </tr>
   <tr>
