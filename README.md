@@ -84,7 +84,11 @@
      <a href="https://medium.com/@shanakachathuranga/machine-learning-model-serving-with-django-rest-framework-397f495a8a38"> Exposing Model</a> </td>
   </tr>
   <tr>
-</table>
+</table>  
+
+
+![nifi](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/f81db1a8-632d-4ecb-81f2-775c03692d08)
+
 
 ## Ⅱ. Version Control and Lineage Tracking
 
