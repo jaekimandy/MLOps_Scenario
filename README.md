@@ -126,7 +126,7 @@
     <td rowspan="3">B. Lineage Tracking</td>
     <td>1. Data Lineage</td>
     <td>Apache Atlas<br> Amundsen</td>
-    <td>Track data versions and transformations using data cataloging tools</td>
+    <td>Data lineage is the story behind the data. It tracks the data from its creation point to the points of consumption. This pipeline of dataflow involves input and output points, transformation and modeling processes the data has undergone, record analysis, visualizations, and several other processes which are constantly tracked and updated. The objective of data lineage is to observe the entire lifecycle of data such that the pipeline can be upgraded and leveraged for optimal performance.</td>
   </tr>
   <tr>
     <td>2. Model Lineage</td>
