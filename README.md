@@ -5,6 +5,11 @@
 • Discuss the challenges and best practices for monitoring and managing the deployed model in production.
 
 
+## MLOps Scenario   
+ 
+![mlops-phasen](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/39260e52-55eb-4a1d-9f2e-a3e1fe823a70)
+    
+
 ## Ⅰ. Automated Model Training and Deployment Process
 
 <table>
