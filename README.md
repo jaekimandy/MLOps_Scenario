@@ -176,7 +176,7 @@
   </tr>
   <tr>
     <td rowspan="3">B. Management</td>
-    <td>1. Automated Retrainin</td>
+    <td>1. Automated Retraining</td>
     <td>Apache Airflow <br> Kubeflow Pipeline </td>
     <td> Implement pipelines to automatically retrain the model when significant performance degradation or drift is detected.
 </td>
