@@ -201,6 +201,9 @@ Model retraining does not change the parameters and variables used in the model.
      
 ![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/0ca63840-2eaa-499a-8a8f-a32fdedff55e)   
 
+**Automated Retraining**
+![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/8aea5698-c684-4f2b-8a37-d8061451d792)
+
 
 ## Ⅳ. Challenges and Best Practices
 
