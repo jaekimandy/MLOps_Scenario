@@ -179,7 +179,8 @@
     <td rowspan="3">B. Management</td>
     <td>1. Automated Retraining</td>
     <td>Apache Airflow <br> Kubeflow Pipeline </td>
-    <td> Implement pipelines to automatically retrain the model when significant performance degradation or drift is detected.
+    <td> Implement pipelines to automatically retrain the model when significant performance degradation or drift is detected. Model retraining refers to updating a deployed machine learning model with new data. This can be done manually, or the process can be automated as part of the MLOps practices. Monitoring and automatically retraining an ML model is referred to as Continuous Training (CT) in MLOps. Model retraining enables the model in production to make the most accurate predictions with the most up-to-date data. 
+Model retraining does not change the parameters and variables used in the model. It adapts the model to the current data so that the existing parameters give healthier and up-to-date outputs. This enables businesses to efficiently monitor and continuously retrain their models for the most accurate predictions.
 </td>
   </tr>
   <tr>
