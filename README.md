@@ -168,7 +168,7 @@
   <tr>
     <td>2. Drift Detection</td>
     <td>Evidently AI<br> Alibi Detect</td>
-    <td> Implement drift detection mechanisms to monitor changes in data distribution or model performance over time</td>
+    <td> Implement drift detection mechanisms to monitor changes in data distribution or model performance over time. Data drift is a change in the statistical properties and characteristics of the input data. It occurs when a machine learning model is in production, as the data it encounters deviates from the data the model was initially trained on or earlier production data. This shift in input data distribution can lead to a decline in the model's performance. The reason is, when you create a machine learning model, you can expect it to perform well on data similar to the data used to train it. However, it might struggle to make accurate predictions or decisions if the data keeps changing and the model cannot generalize beyond what it has seen in training. In simple terms, data drift is a change in the model inputs the model is not trained to handle. Detecting and addressing data drift is vital to maintaining ML model reliability in dynamic settings.</td>
   </tr>
   <tr>
     <td>3. Alerting</td>
