@@ -143,6 +143,7 @@
 **Registered Model in MLFlow**
 ![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/77a78d1f-bf46-4441-a274-db491d3a05ec)
 ![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/8532ac30-653c-4e02-a366-dde4db39212e)
+![image](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/6e577ae7-3ea0-4446-8238-282649c82852)
 
 
 
