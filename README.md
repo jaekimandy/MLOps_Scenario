@@ -46,7 +46,7 @@
   <tr>
     <td rowspan="3">B. Model Training</td>
     <td>1. Training Pipeline</td>
-    <td>Apache Airflow<br> Kubeflow Pipelines<br> Prefec</td>
+    <td>Apache Airflow<br> Kubeflow Pipelines<br> Prefect</td>
     <td>Use orchestration tools to create a training pipeline that can be triggered automatically</td>
   </tr>
   <tr>
