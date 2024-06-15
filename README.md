@@ -87,6 +87,7 @@
 </table>  
 
 
+## Nifi
 ![nifi](https://github.com/jaekimandy/MLOps_Scenario/assets/99704906/f81db1a8-632d-4ecb-81f2-775c03692d08)
 
 
